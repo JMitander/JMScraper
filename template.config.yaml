@@ -1,0 +1,20 @@
+urls:
+  - https://example.com
+  - https://anotherexample.com
+mode: all
+recursive: true
+max_depth: 3
+subdomains: true
+output_file: "output/results.json"
+output_format: "json"
+concurrency: 10
+delay: 2.0
+proxy: "http://proxyserver:port"
+alternative_method: "beautifulsoup"
+user_agents:
+  - "Custom User-Agent 1"
+  - "Custom User-Agent 2"
+handle_js: true
+ssl_verify: false
+cookies:
+  sessionid: "abc123"
