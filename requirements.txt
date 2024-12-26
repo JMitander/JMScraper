@@ -1,0 +1,5 @@
+aiofiles==24.1.0
+aiohttp==3.11.11
+beautifulsoup4==4.12.3
+InquirerPy==0.3.4
+rich==13.9.4
